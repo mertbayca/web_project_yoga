@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.h_bg {
+    background-image: url("../../assets/backg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.h_shape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.h_shape_ball {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 9999px;
+    background-color: #CC4E5C;
+}
+
+.h_shape_line {
+    width: 0.25rem;
+    height: 80px;
+    height: 10rem;
+    background: linear-gradient(180deg, #CC4E5C, #ffffff);
+}
+
+.h_title {
+    display: flex;
+    padding: 7.5rem 2rem 2rem 2rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 50rem;
+}
+
+.h_title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: forestgreen;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+  
+.h_title h1 span {
+    color: #CC4E5C;
+}
+
+/* mobile */
+@media (max-width: 640px) {
+    .h_title {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2rem;
+    }
+  
+    .h_title h1 {
+      font-size: 3rem;
+      margin-left: 1.5rem;
+    }
+  
+    .h_shape {
+      margin-right: none;
+    }
+}
+  
+/* tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .h_title {
+      padding: 5rem 2rem 2rem 2rem;
+    }
+    
+    .h_title h1 {
+      font-size: 2.5rem;
+    }
+    
+    .h_title h1 span {
+      display: block;
+      margin-top: 0.5rem;
+    }
+    
+    .h_shape_line {
+      height: 7.5rem;
+    }
+}
+  
+/* desktop */
+@media (min-width: 1025px) {
+    .h_title {
+      padding: 7.5rem 2rem 2rem 2rem;
+    }
+    
+    .h_title h1 {
+      font-size: 3.5rem;
+    }
+    
+    .h_title h1 span {
+      display: inline-block;
+      margin-left: 1.5rem;
+    }
+    
+    .h_shape_line {
+      height: 10rem;
+    }
+}
