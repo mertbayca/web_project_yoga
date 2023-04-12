@@ -132,6 +132,10 @@
   .h_input input {
     width: 100%;
   }
+
+  .h_images img {
+    max-width: 15rem;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 1024px) {
@@ -153,9 +157,12 @@
   .h_shape_line {
     height: 7.5rem;
   }
+
+  .h_images img {
+    max-width: 24rem;
+  }
 }
 
-/* Desktop */
 @media (min-width: 1025px) {
   .h_title {
     padding: 7.5rem 2rem 2rem 2rem;

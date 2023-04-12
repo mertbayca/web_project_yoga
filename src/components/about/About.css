@@ -34,6 +34,7 @@
 
 .a_box-text p {
     margin-top: 1rem;
+    font-size: normal;
 }
 
 .a_box-text .gaia {
@@ -87,4 +88,77 @@
 .a_cta_button img {
     max-width: 3rem;
     margin-right: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .a_box_container {
+      flex-direction: column;
+    }
+    
+    .a_box {
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+    
+    .a_box-text h2 {
+      font-size: 32px;
+    }
+    
+    .a_cta {
+      margin: 1rem;
+    }
+    
+    .a_cta_text h4 {
+      font-size: 24px;
+    }
+    
+    .a_cta_button {
+      margin-left: 1rem;
+      flex-direction: column;
+      margin-right: 1rem;
+    }
+    
+    .a_cta_button a {
+      font-size: 14px;
+      padding: 1.2rem;
+      border-radius: 0.5rem;
+    }
+    
+    .a_cta_button img {
+      max-width: 2rem;
+      margin-right: 0.5rem;
+    }
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .a_box_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .a_box {
+      width: 90%;
+      margin: 3rem 0;
+    }
+  
+    .a_cta {
+      margin: 2rem;
+    }
+  
+    .a_cta_text h4 {
+      font-size: 28px;
+    }
+  
+    .a_cta_button {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+
+    .a_cta_button a {
+        padding: 2rem;
+    }
 }
