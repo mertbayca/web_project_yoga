@@ -1,0 +1,41 @@
+.a_bg {
+    display: flex;
+    flex-direction: row;
+}
+
+.a_box {
+    display: flex;
+    background-image: url("../../assets/backg.png");
+    padding: 2rem;
+    flex-direction: column;
+    margin: 3rem 1.5rem;
+    border-radius: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.a_box-text {
+    font-family: var(--font-family);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a_box-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.a_box-text p {
+    margin-top: 1rem;
+}
+
+.a_box-text .gaia {
+    color: forestgreen;
+    font-weight: 550;
+}
+
+.a_box-text .terra {
+    color: #CC4E5C;
+}

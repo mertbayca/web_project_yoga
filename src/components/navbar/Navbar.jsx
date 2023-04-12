@@ -12,10 +12,10 @@ function NavbarComponent() {
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="fw-bold" href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About Us</Nav.Link>
-              <Nav.Link href="#testimonial">Testimonials</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#home">Home</Nav.Link>
+              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#About">About Us</Nav.Link>
+              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#testimonial">Testimonials</Nav.Link>
+              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#pricing">Pricing</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

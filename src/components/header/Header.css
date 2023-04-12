@@ -1,107 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-
 .h_bg {
-    background-image: url("../../assets/backg.png");
-    background-size: cover;
-    height: 100vh;
+  background-image: url("../../assets/backg.png");
+  background-size: cover;
+}
+
+.h_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 0.5rem;
 }
 
 .h_shape {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 16rem 2rem;
 }
 
 .h_shape_ball {
-    width: 1.25rem;
-    height: 1.25rem;
-    border-radius: 9999px;
-    background-color: #CC4E5C;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: #CC4E5C;
 }
 
 .h_shape_line {
-    width: 0.25rem;
-    height: 80px;
-    height: 10rem;
-    background: linear-gradient(180deg, #CC4E5C, #ffffff);
+  width: 0.25rem;
+  height: 10rem;
+  background: linear-gradient(180deg, #CC4E5C, #ffffff);
 }
 
 .h_title {
-    display: flex;
-    padding: 7.5rem 2rem 2rem 2rem;
-    font-family: 'Open Sans', sans-serif;
-    width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 50rem;
+  margin-bottom: 2rem;
 }
 
 .h_title h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: forestgreen;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-}
-  
-.h_title h1 span {
-    color: #CC4E5C;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: forestgreen;
+  margin: 0;
 }
 
-/* mobile */
-@media (max-width: 640px) {
-    .h_title {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 2rem;
-    }
-  
-    .h_title h1 {
-      font-size: 3rem;
-      margin-left: 1.5rem;
-    }
-  
-    .h_shape {
-      margin-right: none;
-    }
+.h_title h1 span {
+  color: #CC4E5C;
 }
-  
-/* tablet */
-@media (min-width: 641px) and (max-width: 1024px) {
-    .h_title {
-      padding: 5rem 2rem 2rem 2rem;
-    }
-    
-    .h_title h1 {
-      font-size: 2.5rem;
-    }
-    
-    .h_title h1 span {
-      display: block;
-      margin-top: 0.5rem;
-    }
-    
-    .h_shape_line {
-      height: 7.5rem;
-    }
+
+.h_title p {
+  margin: 1.5rem 0 0 0;
 }
+
+.h_input {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.h_title h4 {
+  font-family: var(--font-family);
+  margin: 1.5rem 0;
+  color: #CC4E5C;
+}
+
+.h_title h4 span {
+  color: forestgreen;
+}
+
+.h_input input {
+  border-radius: 5px;
+  font-family: var(--font-family);
+  width: 70%;
+  flex: 1;
+  border: 1px solid forestgreen;
+  padding: 0.5rem;
+}
+
+.h_input button {
+  background: forestgreen;
+  font-family: var(--font-family);
+  color: white;
+  border: 1px solid forestgreen;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.h_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 2rem;
+  width: 100%;
+}
+
+.h_img_leaves img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .h_container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .h_shape {
+    display: none;
+  }  
+
+  .h_title {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .h_title h1 {
+    font-size: 2.5rem;
+  }
+
+  .h_input input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+  .h_title {
+    padding: 5rem 2rem 2rem 2rem;
+    max-width: 50rem;
+  }
   
-/* desktop */
+  .h_title h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  
+  .h_title h1 span {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  .h_shape_line {
+    height: 7.5rem;
+  }
+}
+
+/* Desktop */
 @media (min-width: 1025px) {
-    .h_title {
-      padding: 7.5rem 2rem 2rem 2rem;
-    }
-    
-    .h_title h1 {
-      font-size: 3.5rem;
-    }
-    
-    .h_title h1 span {
-      display: inline-block;
-      margin-left: 1.5rem;
-    }
-    
-    .h_shape_line {
-      height: 10rem;
-    }
+  .h_title {
+    padding: 7.5rem 2rem 2rem 2rem;
+    max-width: 50rem;
+  }
+  
+  .h_title h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  
+  .h_title h1 span {
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+  
+  .h_shape_line {
+    height: 10rem;
+  }
 }

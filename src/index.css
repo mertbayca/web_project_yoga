@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --gradient-text: linear-gradient(89.97deg, #228B22 1.84%, #CC4E5C 80.67%);
+}
