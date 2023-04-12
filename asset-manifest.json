@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/web_project_yoga/static/css/main.f74658ea.css",
+    "main.js": "/web_project_yoga/static/js/main.9a26ab23.js",
+    "static/media/backg.png": "/web_project_yoga/static/media/backg.b105fe0bae299e359bb5.png",
+    "static/media/leaves.png": "/web_project_yoga/static/media/leaves.06cfde5c7def3ea7523d.png",
+    "static/media/logo.png": "/web_project_yoga/static/media/logo.c1fc0956ae8f06232ce4.png",
+    "static/media/girl1.png": "/web_project_yoga/static/media/girl1.32ebf5ab027cf51ce192.png",
+    "static/media/guy3.png": "/web_project_yoga/static/media/guy3.4c083c86842c5a60094e.png",
+    "static/media/girl2.png": "/web_project_yoga/static/media/girl2.7c50bd3b5abb0c2183f3.png",
+    "static/media/guy1.png": "/web_project_yoga/static/media/guy1.71f9fa5f09a94faab16b.png",
+    "static/media/guy2.png": "/web_project_yoga/static/media/guy2.8ac8579bada706d6d908.png",
+    "static/media/yogirl.png": "/web_project_yoga/static/media/yogirl.7c4c85587d8ef04f18b4.png",
+    "static/media/tick.png": "/web_project_yoga/static/media/tick.e52bb87cae970cde1086.png",
+    "static/media/slick.svg": "/web_project_yoga/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/web_project_yoga/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/web_project_yoga/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/web_project_yoga/index.html",
+    "static/media/slick.woff": "/web_project_yoga/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/appstore.svg": "/web_project_yoga/static/media/appstore.cd1fe386455a5fd4d4f83299a81e817e.svg",
+    "static/media/linkedin-in.svg": "/web_project_yoga/static/media/linkedin-in.42f56d2e4ae6f93ca987e172233e3da8.svg",
+    "static/media/googleplay.svg": "/web_project_yoga/static/media/googleplay.412a8d682ab0a1c739b26353fdac5523.svg",
+    "main.f74658ea.css.map": "/web_project_yoga/static/css/main.f74658ea.css.map",
+    "main.9a26ab23.js.map": "/web_project_yoga/static/js/main.9a26ab23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f74658ea.css",
+    "static/js/main.9a26ab23.js"
+  ]
+}
