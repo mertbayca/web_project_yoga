@@ -1,9 +1,14 @@
 .a_bg {
     display: flex;
+    flex-direction: column;
+}
+
+.a_box_container {
+    display: flex;
     flex-direction: row;
 }
 
-.a_box {
+.a_box{
     display: flex;
     background-image: url("../../assets/backg.png");
     padding: 2rem;
@@ -38,4 +43,48 @@
 
 .a_box-text .terra {
     color: #CC4E5C;
+}
+
+.a_cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 1rem;
+    background-color: #CC4E5C;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.a_cta_text h4 {
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.37);;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.a_cta_button {
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.a_cta_button a {
+    border: none;
+    font-family: var(--font-family);
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.a_cta_button img {
+    max-width: 3rem;
+    margin-right: 1rem;
 }
