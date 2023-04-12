@@ -1,4 +1,15 @@
 import logo from "./logo.png";
+import guy1 from "./guy1.png";
+import guy2 from "./guy2.png";
+import guy3 from "./guy3.png";
+import girl1 from "./girl1.png";
+import girl2 from "./girl2.png";
 
-
-export default logo
+export {
+    logo,
+    guy1,
+    guy2,
+    guy3,
+    girl1,
+    girl2
+};

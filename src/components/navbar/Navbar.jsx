@@ -14,7 +14,7 @@ function NavbarComponent() {
             <Nav className="ms-auto">
               <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#home">Home</Nav.Link>
               <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#About">About Us</Nav.Link>
-              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#testimonial">Testimonials</Nav.Link>
+              <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#testimonials">Testimonials</Nav.Link>
               <Nav.Link className="text-white font-weight-bold" style={{fontFamily: 'Open Sans'}} href="#pricing">Pricing</Nav.Link>
             </Nav>
           </Navbar.Collapse>
