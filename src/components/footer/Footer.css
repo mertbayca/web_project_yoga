@@ -1,0 +1,38 @@
+.footer_bg {
+    background-image: url("../../assets/backg.png");
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+}
+
+.left-side {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.left-side p {
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.right-side p {
+    font-weight: bold;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right-side img {
+    max-width: 14px;
+}

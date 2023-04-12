@@ -4,6 +4,8 @@ import guy2 from "./guy2.png";
 import guy3 from "./guy3.png";
 import girl1 from "./girl1.png";
 import girl2 from "./girl2.png";
+import tick from "./tick.png";
+import linkedin from "./linkedin-in.svg";
 
 export {
     logo,
@@ -11,5 +13,7 @@ export {
     guy2,
     guy3,
     girl1,
-    girl2
+    girl2,
+    tick,
+    linkedin
 };
